@@ -3,263 +3,417 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Phan Minh Toan
+    tagline: Backend Developer
+    avatar: profile1.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: acersjt@gmail.com
+    phone: 0355 157 358
+    # timezone: Asia/Ho_Chi_Minh
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #website: blog.webjeda.com #do not add http://
+    linkedin: acerjt
+    #xing: 
+    github: acerjt
+    telegram: '@acerjt' # add your nickname without '@' sign
+    gitlab: acerjt
+    bitbucket: acerjt
+    twitter: '@wl41_acerjt'
+    stack-overflow: 13781399/acerjt # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads: 172163264-toan-phan # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Vietnamese
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Upper-Intermediate
 
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Cyber Security
           link:
 
-        - item: Snowboarding
+        - item: Play Instrumental
           link:
 
-        - item: Cooking
+        - item: Balisong
           link:
 
+        - item: Trading
+          link:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      My career objective is to assume a senior developer/technical lead role, leveraging my extensive programming experience in Node.js, PHP, Python, and C#. I aim to apply my deep understanding of software architecture and design to lead development teams, fostering an environment of innovation and collaboration. Through mentorship and hands-on contributions, I aspire to guide projects towards successful completion, ensuring both technical excellence and team growth. Committed to staying abreast of evolving technologies, I seek to blend my technical proficiency with leadership skills, contributing to the achievement of strategic business objectives.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor of Engineering in Software Engineering
+        university: University of Information Technology (UIT)
+        time: 2016 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+         Three times gain Encouraging Study Scholarship
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - role: Deputy Head of Deparment
+        time: September 2022 - November 2023
+        company: Funan Securities Coporation (FNS) - 72 Le Thanh Ton Street, District 1, Ho Chi Minh City
+        details:
+          - project: 
+            description: |
+              In my role as an Deputy Head of Deparment, I oversee a comprehensive range of responsibilities encompassing both hardware and software management. 
+              Key highlights of my role include:
+              <ol>
+                <li style="font-weight: bold; margin-bottom: 5px">Credential Management:</li>
+                  Manage and secure credentials for databases, virtual machines (VMs), and other critical systems, ensuring data integrity and access control.
+                <li style="font-weight: bold; margin-bottom: 5px">Collaboration with Partners:</li>
+                  Work closely with partners such as SSC (State Securities Commission of Vietnam),
+                  HOSE (Ho Chi Minh Stock Exchange), HNX (Ha Noi Stock Exchange), and VSDC (Vietnam Securities Depository and Clearing Corporation), 
+                  FSS (Financial Software Solutions), VietStock, ACB, BIDV, VNPT, Viettel, VNPAY,...
+                  fostering strong relationships and ensuring seamless collaboration.
+                <li style="font-weight: bold; margin-bottom: 5px">HCI System Management:</li>
+                  Administer the Hyper-Converged Infrastructure (HCI) system, overseeing resource allocation, VM creation/deletion, 
+                  backup procedures, and network configuration in accordance with requirements from HOSE, HNX, and VSD.
+                <li style="font-weight: bold; margin-bottom: 5px">User Access and Insight Software:</li>
+                  Grant access and create user accounts for insight software, maintaining security standards and user permissions.
+                <li style="font-weight: bold; margin-bottom: 5px">Backup System Implementation:</li>
+                  Establish a robust backup system for sharing branch files, ensuring data redundancy and recovery capabilities.
+                <li style="font-weight: bold; margin-bottom: 5px">Infrastructure Expansion:</li>
+                  Strategically add resources to the current infrastructure, ensuring scalability and optimal performance.
+                <li style="font-weight: bold; margin-bottom: 5px">Contract Management:</li>
+                  Manage contracts relevant to the IT department, overseeing license renewals, purchases, and ensuring compliance with contractual agreements.
+                <li style="font-weight: bold; margin-bottom: 5px">Testing System for KRX:</li>
+                  Develop and manage systems for testing KRX (Korea Exchange), reporting, and metrics data reception from partners.
+                <li style="font-weight: bold; margin-bottom: 5px">Code Review and Scripting:</li>
+                  Conduct code reviews to maintain coding standards and write scripts for log rotation, backup procedures, and other automation tasks.
+                <li style="font-weight: bold; margin-bottom: 5px">Monitoring and Operations:</li>
+                  Implement and oversee monitoring systems, ensuring the smooth operation of core systems on a daily basis.
+              </ol>
+              This multifaceted role showcases my ability to manage diverse aspects of IT, from infrastructure and system operations to collaboration 
+              with external partners and contract management. It reflects my commitment to maintaining a secure, efficient, 
+              and innovative IT environment that aligns with organizational goals.
+      - role: FullStack Developer
+        time: July 2020 - August 2022
+        company: Funan Securities Coporation (FNS) - 72 Le Thanh Ton Street, District 1, Ho Chi Minh City
+        details: 
+          - project: FNS Priceboard
+            description: |
+              With my experience in software engineering, I specialize in the development 
+              and optimization of stock price-related systems. 
+              I have successfully designed and implemented a highly efficient price board for stock prices, 
+              surpassing the capabilities of third-party software.
+              
+              My role involves intricate analysis of specific data from HOSE, HNX 
+              and leveraging these insights to create optimized code. I utilize cutting-edge technologies, 
+              including socket technology, Redis for caching, and multithreading functionalities built into Node.js 
+              to enhance the speed of read and write operations. This not only ensures real-time updates 
+              but also significantly improves overall system performance.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+              I am dedicated to staying at the forefront of technological advancements, continuously exploring 
+              innovative solutions to drive efficiency in financial data processing. My expertise in leveraging 
+              advanced features within Node.js, coupled with a focus on multithreading and efficient caching mechanisms, 
+              allows for a highly responsive and streamlined stock price information system.
+              
+              In this capacity, I contribute to the organization's technological advancement, 
+              creating solutions that not only outperform third-party alternatives 
+              but also enhance the overall competitiveness and efficiency of the financial systems in use.
+          - project: FNS Sacombank API (STB Gateway)
+            description: |
+              I have successfully designed and implemented an API for inquiring stock accounts and facilitating deposits 
+              from bank accounts to stock accounts, fostering corporate collaboration between FNS and Sacombank.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+              My role involves implementing advanced security measures, utilizing RSA for authorization 
+              and the AES256 algorithm for encrypting and decrypting sensitive data. 
+              By incorporating industry-standard encryption techniques, 
+              I ensure the confidentiality and integrity of information exchanged between the systems.
+
+              I am committed to delivering reliable and efficient solutions, adhering to best practices in API development. 
+              The seamless integration of financial systems between FNS and Sacombank underlines my expertise in creating 
+              interoperable and secure communication channels.
+
+              This accomplishment not only signifies my proficiency in building sophisticated financial APIs but also 
+              underscores my dedication to ensuring the highest levels of data security and integrity in the context 
+              of sensitive financial transactions.
+          - project: FNS IT Support
+            description: |
+              In my role as a software engineer, I have successfully spearheaded the development 
+              of a comprehensive IT support project, integrating diverse functionalities to enhance communication 
+              and streamline processes across departments. Key achievements include:
+              <ol>
+              <li style="font-weight: bold; margin-bottom: 5px">Azure Bot Integration for Notifications:</li>
+
+                Implemented Azure Bot to facilitate notifications within and across departments, enhancing communication efficiency.
+
+              <li style="font-weight: bold; margin-bottom: 5px">VNPAY SMS Service Integration:</li>
+
+                Integrated VNPAY SMS service to automate the dissemination of critical stock order information to customers.
+                Implemented automated SMS notifications for customer birthdays, Christmas, New Year, and other significant events.
+
+              <li style="font-weight: bold; margin-bottom: 5px">Daily Revenue Statistical Reports, Total Outstanding Balances and Accumulated Revenue:</li>
+                
+                Developed a system to summarize daily revenue statistical reports, providing real-time insights into business performance.
+                Implemented functionalities to track total outstanding balances and accumulated revenue specifically tailored for the business department and management board.
+                Utilized Zalo OA for seamless reporting and communication.
+              
+              <li style="font-weight: bold; margin-bottom: 5px">Investment Advisory Newsletters, Debt Emails and Notifications from FNS to Customers:</li>
+                  
+                  Created a robust system for sending debt-related emails, improving communication with customers.
+                  Developed a mechanism for delivering investment advisory newsletters to keep customers informed.
+                  Integrated a notification system to relay important updates from FNS (Financial News Service) directly to customers, ensuring timely and relevant information.
+              </ol>
+              These accomplishments underscore my ability to architect and implement multifaceted solutions, 
+              leveraging various technologies and platforms to enhance communication, automate processes, 
+              and provide valuable insights for informed decision-making.
+          - project: FNS Monitor Checklist
+            description: |
+              In my capacity as a software engineer, I successfully developed a Monitor Checklist system that revolutionized task execution 
+              and communication within my department. Key accomplishments include:
+              <ol>
+                <li style="font-weight: bold; margin-bottom: 5px">Reverse Engineering and Code Analysis:</li>
+                  Utilized advanced tools such as dotPeek and dnSpy to reverse engineer DLL files, gaining insights into the workings of third-party software.
+                <li style="font-weight: bold; margin-bottom: 5px">Automation of Manual Tasks:</li>
+                  Analyzed the code from third-party software and implemented automation to streamline and expedite manual tasks within the checklist.
+                <li style="font-weight: bold; margin-bottom: 5px">Efficiency Improvement:</li>
+                  Reduced the time required for task completion significantly by automating sequential processes, 
+                  ensuring a more efficient workflow for department members.
+                <li style="font-weight: bold; margin-bottom: 5px">Status Notifications:</li>
+                  Implemented a real-time status notification system, providing instant updates on the success or failure of each task in the checklist.
+                <li style="font-weight: bold; margin-bottom: 5px">Automated Task Completion Alerts:</li>
+                  Developed functionality to automatically notify the team on a Skype group upon the completion of each task, keeping everyone informed about progress.
+                <li style="font-weight: bold; margin-bottom: 5px">Email Notifications to Other Departments:</li>
+                  Integrated email notifications to inform other departments of the completion of tasks, ensuring a smooth transition to subsequent processes.
+              </ol>
+              This project showcases my proficiency in reverse engineering, automation, and collaborative solution-building. The Monitor Checklist not only optimizes task execution but also establishes a robust communication channel, contributing to overall operational efficiency.
+          - project: FNS Online Stock Trading Account Opening
+            description: |
+              I have implemented a comprehensive online stock trading account opening project, leveraging .NET technology. 
+              The key features and accomplishments of this project include:
+              <ol>
+                <li style="font-weight: bold; margin-bottom: 5px">Integration of eKYC Service:</li>
+                  Seamlessly integrated the eKYC (Electronic Know Your Customer) service from VNPT to streamline and enhance the account verification process.
+                <li style="font-weight: bold; margin-bottom: 5px">Specialist Staff Verification:</li>
+                  Implemented a meticulous verification process where specialist staff meticulously check data received from customers, ensuring accuracy and compliance.
+                <li style="font-weight: bold; margin-bottom: 5px">Document Generation and Distribution:</li>
+                  Enabled sales staff to generate open account contracts dynamically, pulling data from the database, 
+                  and subsequently distributing the contracts to customers for signing.
+                <li style="font-weight: bold; margin-bottom: 5px">Integrated Data to Core System:</li>
+                  Established a seamless integration process to transfer verified customer data from the open account project 
+                  to the core system, ensuring data consistency and accuracy.
+                <li style="font-weight: bold; margin-bottom: 5px">Efficient Sales Process:</li>
+                  Optimized the sales process by automating time-consuming tasks, resulting in a more efficient and customer-friendly account opening experience.
+                <li style="font-weight: bold; margin-bottom: 5px">Enhanced Security Measures:</li>
+                  Implemented robust security measures to safeguard customer information throughout the account opening process, ensuring compliance with data protection regulations.
+              </ol>
+                This project underscores my ability to design end-to-end solutions, integrating various technologies to create a secure, efficient, 
+                and compliant online stock trading account opening system. The successful incorporation of eKYC services 
+                enhances the overall customer onboarding experience while maintaining a high level of data integrity and security.
+          - project: FNS Online Shareholder Meetings
+            description: |
+              In response to the challenges posed by the COVID-19 pandemic, I successfully led the development of a lightweight web application 
+              using PHP to facilitate online shareholder meetings. This project seamlessly adapts to the new normal, 
+              providing essential features for a virtual shareholder meeting experience, including:
+              <ol>
+                <li style="font-weight: bold; margin-bottom: 5px">Shareholder Data Import:</li>
+                  Implemented a feature to easily import shareholder data, ensuring accurate and up-to-date information for the virtual meetings.
+                <li style="font-weight: bold; margin-bottom: 5px">Email Notifications and Credential Distribution:</li>
+                  Developed an automated system to send email notifications to shareholders, containing login credentials 
+                  and instructions on how to join the virtual meetings securely.
+                <li style="font-weight: bold; margin-bottom: 5px">Secure Login Page:</li>
+                  Implemented a robust login page, ensuring secure access for shareholders participating in the virtual meetings.
+                <li style="font-weight: bold; margin-bottom: 5px">Voting Content Setup:</li>
+                  Enabled administrators to set up voting content for meetings, providing a customizable and dynamic platform for decision-making.
+                <li style="font-weight: bold; margin-bottom: 5px">Real-time Voting and Ballot Checking:</li>
+                  Implemented a real-time voting system, allowing shareholders to cast their votes online during the meeting.
+                  Developed functionality to check voting ballots, ensuring accuracy and transparency in the voting process.
+                <li style="font-weight: bold; margin-bottom: 5px">Announcement of Voting Results:</li>
+                  Created a feature to automatically announce and display voting results after the conclusion of the meeting, fostering transparency and accountability.
+              </ol>
+              This project showcases my ability to swiftly respond to evolving circumstances by leveraging technology to maintain crucial business processes. 
+              The online shareholder meeting application not only ensures business continuity during challenging times 
+              but also provides a user-friendly and secure platform for shareholder engagement and decision-making.
+          - project: <a href="https://funan.com.vn" target="_blank">FNS Official Website</a>
+            description: |
+              In my role as a proficient web developer, I successfully designed and implemented the official website for our organization. 
+              This comprehensive platform serves as a central hub for a variety of essential features, catering to both internal and external stakeholders. 
+              Key highlights of the project include:
+              <ol>
+                <li style="font-weight: bold; margin-bottom: 5px">FNS Announcements and News Posting:</li>
+                  Developed a user-friendly content management system (CMS) to efficiently publish FNS announcements, 
+                  news, and policies, ensuring timely and accurate information dissemination.
+                <li style="font-weight: bold; margin-bottom: 5px">Business Information and Enterprise Structure:</li>
+                  Created dedicated sections to showcase detailed business information, providing insights into the organization's operations, goals, and structure.
+                <li style="font-weight: bold; margin-bottom: 5px">Integration of VietStock Data:</li>
+                  Integrated VietStock data to enrich the website with dynamic content, including market analysis charts 
+                  and real-time market information, enhancing the overall user experience.
+                <li style="font-weight: bold; margin-bottom: 5px">Product and Service Showcase:</li>
+                  Designed and implemented sections to introduce and highlight the organization's products and services, 
+                  ensuring a comprehensive overview for visitors and potential clients.
+                <li style="font-weight: bold; margin-bottom: 5px">Responsive Design:</li>
+                  Ensured a responsive and user-friendly design, catering to a diverse audience accessing the website from various devices.
+                <li style="font-weight: bold; margin-bottom: 5px">Analytical Tools:</li>
+                  Incorporated analytical tools to provide in-depth insights into market trends, supporting stakeholders in making informed decisions.
+              </ol>
+              This project not only showcases my technical proficiency in web development but also highlights my ability 
+              to create a multifaceted platform that serves diverse organizational needs. 
+              The official website serves as a valuable tool for communication, transparency, 
+              and engagement, offering stakeholders a centralized and dynamic source of information.  
+
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Library Book Management System
+        tagline: "Greetings! I'm thrilled to share my journey into the realm of software technology with 
+        my very first pet project — a Library Book Management System built in VB and SQL Server, dating back to 2018. 
+        This project marked my initiation into the world of coding and introduced me to the fundamental CRUD (Create, Read, Update, Delete) concept."
+      - title: Game 2D Castlevania NES
+        tagline: 
+          A recreation of two iconic scenes from the Castlevania NES game, meticulously crafted using C++ and DirectX9. 
+          This project holds a special place as one of the most demanding tasks during my time at UIT, where many students faced formidable challenges. 
+          I'm proud to share that I successfully navigated this intricate project on my first attempt.
+          This recreation of Castlevania NES scenes not only pushed my technical abilities but also deepened my appreciation for the complexities involved in game development. 
+          It stands as a testament to overcoming challenges and mastering diverse concepts in a single, ambitious project.
+          The project provided invaluable insights into the intricacies of game development, instilling knowledge 
+          about optimal resource management, animation, and the importance of adhering to OOP principles.
+      - title: Shoe Shop Management System
+        tagline: 
+          Step into the world of web development with my Shoe Shop Management System, 
+          a significant milestone as it marks my first foray into creating web applications. 
+          Developed using the LAMP stack (Linux, Apache, MySQL, PHP), this project not only introduced me to Linux 
+          but also deepened my love for this powerful operating system. 
+          Through this project, I deepened my understanding of web protocols, server configurations, 
+          and the intricate dance between the components of the LAMP stack. 
+          It laid the groundwork for my continued exploration in the world of web development.
+      - title: Vietnamese Legal Document Corpus
+        tagline: 
+         Embark on a journey through the intricacies of the Vietnamese legal landscape with my graduate thesis project — the Vietnamese Law System. 
+         Developed using cutting-edge technologies including Node.js, Express, ELK (Elasticsearch, Logstash, Kibana), and incorporating Natural Language Processing (NLP), 
+         this project not only deepened my understanding of Vietnamese law but also introduced me to the powerful world of ELK.
+         Explored and applied advanced technologies such as ELK and NLP, 
+         expanding my skill set and opening doors to new possibilities in legal analysis and data management.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: NodeJS
+        level: 30%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 20%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Linux Command/Bash Script
+        level: 15%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PHP
+        level: 12%
+
+      - name: Mysql
+        level: 12%
+    
+      - name: Oracle
+        level: 10%
+      
+      - name: Docker
+        level: 10%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
